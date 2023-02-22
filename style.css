@@ -10,7 +10,7 @@ body {
     justify-content: center;
     background-image: url(bg.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     background-attachment: fixed;
     font-family: 'Poppins', sans-serif;
 }
@@ -137,7 +137,6 @@ span {
 @media screen and (max-width: 576px) {
     nav ul {
         display: none;
-        border: 1px solid red;
     }
     .hambrger {
         display: block;
